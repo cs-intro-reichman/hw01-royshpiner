@@ -1,6 +1,6 @@
 //addtwo after checking
 
-public class addtwo {
+public class AddTwo {
     public static void main(String[] args) {
         // sum
         int a = Integer.parseInt(args[0]);
