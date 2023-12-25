@@ -6,10 +6,10 @@
  */
 public class LinearEq {
 	public static void main(String[] args) {
-	int  a = Integer.parseInt(args[0]);
-	int  b = Integer.parseInt(args[1]);
-	int  c = Integer.parseInt(args[2]);
-	System.out.println(1.0*a + " *  X + " + 1.0*b + " = " + 1.0*c); //print the question
-	System.out.println("X = " + ((1.0*c-b)/a)); //print result
+	double  a = Double.parseDouble(args[0]);
+	double  b = Double.parseDouble(args[1]);
+	double  c = Double.parseDouble(args[2]);
+	System.out.println(a + " * X + " + b + " = " + c); //print the question
+	System.out.println("X = "+ ((c-b)/a)); //print result
 }
 }
