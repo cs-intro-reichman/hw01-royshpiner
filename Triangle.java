@@ -9,7 +9,7 @@ public class Triangle {
 	int  b = Integer.parseInt(args[1]);
 	int  c = Integer.parseInt(args[2]);
 	boolean d;
-	if ( (a+b) > c && (a+c) > b && (b+c) > a){
+	if ( (a+b) > c && (a+c) > b && (b+c) > a){   //if form a triangle
 	d = true;
 	} 
 
@@ -17,6 +17,6 @@ public class Triangle {
 	d = false;
 	}	
 
-	System.out.println(a + ", " + b + ", " + c + ": "+d);	
+	System.out.println(a + ", " + b + ", " + c + ": "+d);	//print result
 	}
 }
