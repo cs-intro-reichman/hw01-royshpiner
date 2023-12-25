@@ -12,14 +12,15 @@ public class GenThree {
 		System.out.println(c);
 		System.out.println(d);
 		System.out.println(e);
-		if ( c<d && c<e){  //if c min
+		if ( c<=d && c<=e){  //if c min
 		System.out.println("The minimal generated number was "+ c);
 		}
-		if ( d<c && d<e){  //if d min
+		else if ( d<c && d<=e){  //if d min
 		System.out.println("The minimal generated number was "+ d);
 		}
-		if ( e<c && e<d){   //if e min
+		else if ( e<c && e<d){   //if e min
 		System.out.println("The minimal generated number was "+ e);
 		}
+		
 	}
 }
